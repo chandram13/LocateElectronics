@@ -1,14 +1,40 @@
 
 class Phones:
 
-ioSProducts = ["iPhone 13", "iPhone 12","iPhone SE", "iPhone 11", "iPhone X"]
-samsungProducts = ["Samsung Galaxy S22","Samsung Galaxy S21","Samsung Galaxy Z Flip 3", "Samsung Galaxy Z Fold 3"]
-googleProducts = ["Google Pixel 6a","Google Pixel 6","Google Pixel 6 Pro"]
+constructor(technology){
+    this.technology = technology
+}
+PhoneProducts = function(){
+const ioSProducts = ["iPhone 13", "iPhone 12","iPhone SE", "iPhone 11", "iPhone X"]
+askIOS = <input type="What ioS product have you decided to purchase?" />
+    if (askIOS === ioSProducts[0]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the latest iPhone model."}
+    else if (askIOS === ioSProducts[1]){
+        document.getElementById("demo").innerHTML = "You have decided to purchase the second latest iPhone model."
+    }
+    else if (askIOS === iosProducts[2]){
+        document.getElementById("demo").innerHTML = "You have decided to purchase an affordable iPhone model."
+    }
+    else if (askIOS === ioSProducts[3]){
+        document.getElementById("demo").innerHTML = "You have decided to purchase the third latest iPhone model."
+    }
+    else if (askIOS === iosProducts[4]){
+        document.getElementById("demo").innerHTML = "You have decided to purchase the fourth latest iPhone model."
+    }
+    else{
+        document.getElementById("demo").innerHTML = "You have decided to purchase an apple product."}
+    }
 
+const samsungProducts = ["Samsung Galaxy S22","Samsung Galaxy S21","Samsung Galaxy Z Flip 3", "Samsung Galaxy Z Fold 3"]
+askSamsung = <input type="What Samsung product have you decided to purchase" />}
+if (askSamsung === samsungProducts[0]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy model."}
+const googleProducts = ["Google Pixel 6a","Google Pixel 6","Google Pixel 6 Pro"]
+}
 
-class Computers:
+class Phone extends Computers:
 
-function majorComps: {
+function majorComps(){
     appleProducts = ["Macbook Air (M2)","Macbook Air (M1)","Macbook Pro 13 (M2)", "Macbook Pro 13 (M1)", "Macbook Pro 14","Macbook Pro 16"]
     acerProducts = ["Aspire 3", "Aspire 5","Nitro 5","Predator","Chromebook"]
     alienwareProducts = ["x15 R1","m15 R5", "m17 R5", "x17 R1", "x14 R1", "m15 R4", "m15 R7", "x15 R2"]
@@ -25,7 +51,7 @@ function majorComps: {
 }
 
 
-class Tablets:
+class Phones class Tablets(){
 
 function majorTabs: {
     appleTablets = ["iPad Air","iPad Pro","10.2in iPad","iPad Mini"]
@@ -39,8 +65,17 @@ function majorTabs: {
 
 
 
-class Televisions:
+class Phones extends class Televisions:
 
-function majorTeles: {
-
+function majorTeles(): {
+    amazonTV = []
+    bestbuyTV = []
+    hisenseTV = []
+    insigniaTV = []
+    lgTV = []
+    samsungTV = []
+    sonyTV =[]
+    tclTV = []
+    toshibaTV = []
+    vizioTV = []
 }
