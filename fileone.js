@@ -9,27 +9,50 @@ const ioSProducts = ["iPhone 13", "iPhone 12","iPhone SE", "iPhone 11", "iPhone 
 askIOS = <input type="What ioS product have you decided to purchase?" />
     if (askIOS === ioSProducts[0]){
     document.getElementById("demo").innerHTML = "You have decided to purchase the latest iPhone model."}
-    else if (askIOS === ioSProducts[1]){
+    if (askIOS === ioSProducts[1]){
         document.getElementById("demo").innerHTML = "You have decided to purchase the second latest iPhone model."
     }
-    else if (askIOS === iosProducts[2]){
+    if (askIOS === iosProducts[2]){
         document.getElementById("demo").innerHTML = "You have decided to purchase an affordable iPhone model."
     }
-    else if (askIOS === ioSProducts[3]){
+    if (askIOS === ioSProducts[3]){
         document.getElementById("demo").innerHTML = "You have decided to purchase the third latest iPhone model."
     }
-    else if (askIOS === iosProducts[4]){
+    if (askIOS === iosProducts[4]){
         document.getElementById("demo").innerHTML = "You have decided to purchase the fourth latest iPhone model."
     }
     else{
-        document.getElementById("demo").innerHTML = "You have decided to purchase an apple product."}
+        document.getElementById("demo").innerHTML = "You have decided to purchase an apple phone."}
     }
 
 const samsungProducts = ["Samsung Galaxy S22","Samsung Galaxy S21","Samsung Galaxy Z Flip 3", "Samsung Galaxy Z Fold 3"]
-askSamsung = <input type="What Samsung product have you decided to purchase" />}
+askSamsung = <input type="What Samsung product have you decided to purchase>?" />}
 if (askSamsung === samsungProducts[0]){
     document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy model."}
+if (askSamsung === samsungProducts[1]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Samsung Galaxy model."}
+if (askSamsung === samsungProducts[2]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Z Flip model."}
+if (askSamsung === samsungProducts[3]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Fold model."}
+}
+else{
+    document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung phone."
+}
+
 const googleProducts = ["Google Pixel 6a","Google Pixel 6","Google Pixel 6 Pro"]
+askGoogle = <input type="What Google product have you decided to purchase?"/>}
+if (askGoogle === googleProducts[0]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Google Pixel model."
+}
+if (askGoogle === googleProducts[1]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Google Pixel model."
+}
+if (askGoogle === googleProducts[2]){
+    document.getElementById("demo").innerHTML = "You have decided to purchase the third latest Google Pixel model."
+}
+else{
+    document.getElementById("demo").innerHTML = "You have decided to purchase a Google phone."
 }
 
 class Phone extends Computers:
@@ -68,14 +91,13 @@ function majorTabs: {
 class Phones extends class Televisions:
 
 function majorTeles(): {
-    amazonTV = []
-    bestbuyTV = []
-    hisenseTV = []
-    insigniaTV = []
-    lgTV = []
-    samsungTV = []
-    sonyTV =[]
-    tclTV = []
+    amazonTV = ["4 Series","Omni Series"]
+    hisenseTV = ["U8H Series Quantum","R6G Series","U6G Series Quantum","U7G Series Quantum","U6GR Series Quantum","A6 Series","U8G Series","A4 Series","H55 Series"]
+    insigniaTV = ["F30 Series","N10 Series","F20 Series","F50 Series",""]
+    lgTV = ["UP7070 Series","UQ75 Series","C2 Series","UQ9000 Series","C1 Series","A1 Series","Nanocell 90 Series","G1 Series","UP8070 Series","Class 80 Series","Nanocell 75 Series"]
+    samsungTV = ["Class 7 Series","Class 5 Series","QN85B","Q70A","8000 Series","S95B","Q60B","Q80A","Q80B","QN90A","QN90B","TU8300","M4500","Q60T","N5300","Q60A","BE50T-H"]
+    sonyTV =["X80K,""X85K","X95J","A80K","A90K","A95K","A9S","X75K","A80J","X85J","X90J","A90J","X95K","X80J","W830K","X91J","Z9K","Z9J","A8H"]
+    tclTV = ["43S455","Class 3 Series","Class 4 Series","Class 5 Series","Class 6 Series","Class XL"]
     toshibaTV = []
     vizioTV = []
 }
