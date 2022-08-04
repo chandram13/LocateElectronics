@@ -9,57 +9,31 @@ const ioSProducts = ["iPhone 13", "iPhone 12","iPhone SE", "iPhone 11", "iPhone 
 askIOS = <input type="What ioS product have you decided to purchase?" />
     for ios in ioSProducts:
     print(ioSProducts[ios])
-    if (askIOS === ioSProducts[0]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the latest iPhone model."}
-    if (askIOS === ioSProducts[1]){
-        document.getElementById("demo").innerHTML = "You have decided to purchase the second latest iPhone model."
-    }
-    if (askIOS === iosProducts[2]){
-        document.getElementById("demo").innerHTML = "You have decided to purchase an affordable iPhone model."
-    }
-    if (askIOS === ioSProducts[3]){
-        document.getElementById("demo").innerHTML = "You have decided to purchase the third latest iPhone model."
-    }
-    if (askIOS === iosProducts[4]){
-        document.getElementById("demo").innerHTML = "You have decided to purchase the fourth latest iPhone model."
-    }
-    else{
-        document.getElementById("demo").innerHTML = "You have decided to purchase an apple phone."}
-    }
+    if (askIOS === ioSProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest iPhone model."}
+    if (askIOS === ioSProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the second latest iPhone model."}
+    if (askIOS === iosProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an affordable iPhone model."}
+    if (askIOS === ioSProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase the third latest iPhone model."}
+    if (askIOS === iosProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase the fourth latest iPhone model."}
+    else{document.getElementById("demo").innerHTML = "You have decided to purchase an apple phone."}
 
 const samsungProducts = ["Samsung Galaxy S22","Samsung Galaxy S21","Samsung Galaxy Z Flip 3", "Samsung Galaxy Z Fold 3"]
 askSamsung = <input type="What Samsung product have you decided to purchase>?" />
 for sam in samsungProducts:
 print(samsungProducts[sam])
-if (askSamsung === samsungProducts[0]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy model."}
-if (askSamsung === samsungProducts[1]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Samsung Galaxy model."}
-if (askSamsung === samsungProducts[2]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Z Flip model."}
-if (askSamsung === samsungProducts[3]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Fold model."}
-}
-else{
-    document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung phone."
-}
+if (askSamsung === samsungProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy model."}
+if (askSamsung === samsungProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Samsung Galaxy model."}
+if (askSamsung === samsungProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Z Flip model."}
+if (askSamsung === samsungProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Samsung Galaxy Fold model."}
+else{document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung phone."}
 
 const googleProducts = ["Google Pixel 6a","Google Pixel 6","Google Pixel 6 Pro"]
 for g in googleProducts:
 print(googleProducts[g])
 askGoogle = <input type="What Google product have you decided to purchase?"/>}
-if (askGoogle === googleProducts[0]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the latest Google Pixel model."
-}
-if (askGoogle === googleProducts[1]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Google Pixel model."
-}
-if (askGoogle === googleProducts[2]){
-    document.getElementById("demo").innerHTML = "You have decided to purchase the third latest Google Pixel model."
-}
-else{
-    document.getElementById("demo").innerHTML = "You have decided to purchase a Google phone."
-}
+if (askGoogle === googleProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Google Pixel model."}
+if (askGoogle === googleProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Google Pixel model."}
+if (askGoogle === googleProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the third latest Google Pixel model."}
+else{document.getElementById("demo").innerHTML = "You have decided to purchase a Google phone."}
 
 class Phone extends Computers:
 
@@ -68,6 +42,10 @@ function majorComps(){
     for apple in appleProducts:
     print(appleProducts[apple])
     askApple = <input type={"What Apple product have you decided to purchase"/>}
+    if(askApple === appleProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Macbook Air model that comes with the new M2 chip."}}
+    if (askApple === appleProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the recent Macbook Air model that comes with the M1 chip."}
+    if (askApple === appleProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Macbook Pro 13 inch model with the latest M2 chip."}
+
     acerProducts = ["Aspire 3", "Aspire 5","Nitro 5","Predator","Chromebook"]
     for acer in acerProducts:
     print(acerProducts[acer])
@@ -149,12 +127,30 @@ class Phones extends class Televisions:
 
 function majorTeles(): {
     amazonTV = ["4 Series","Omni Series"]
+        for am in amazonTv:
+        print(amazonTV[am])
     hisenseTV = ["U8H Series Quantum","R6G Series","U6G Series Quantum","U7G Series Quantum","U6GR Series Quantum","A6 Series","U8G Series","A4 Series","H55 Series"]
+        for hi in hisenseTV:
+        print(hisenseTV[hi])
     insigniaTV = ["F30 Series","N10 Series","F20 Series","F50 Series",""]
+        for ins in insigniaTV:
+        print(insigniaTV[ins])
     lgTV = ["UP7070 Series","UQ75 Series","C2 Series","UQ9000 Series","C1 Series","A1 Series","Nanocell 90 Series","G1 Series","UP8070 Series","Class 80 Series","Nanocell 75 Series"]
+        for lg in lgTV:
+        print(lgTV[lg])
     samsungTV = ["Class 7 Series","Class 5 Series","QN85B","Q70A","8000 Series","S95B","Q60B","Q80A","Q80B","QN90A","QN90B","TU8300","M4500","Q60T","N5300","Q60A","BE50T-H"]
+        for sams in samsungTV:
+        print(samsungTV[sams])
     sonyTV =["X80K,""X85K","X95J","A80K","A90K","A95K","A9S","X75K","A80J","X85J","X90J","A90J","X95K","X80J","W830K","X91J","Z9K","Z9J","A8H"]
+        for sony in sonyTV:
+        print(sonyTV[sony])
     tclTV = ["43S455","Class 3 Series","Class 4 Series","Class 5 Series","Class 6 Series","Class XL"]
+        for tcl in tclTV:
+        print(tclTV[tcl])
     toshibaTV = ["C350","V35","M550"]
+        for tosh in toshibaTV:
+        print(toshibaTV[tosh])
     vizioTV = ["D Series","M7","V Series","M6 Series","P Series","MQ6 Series","MQX Series"]
+        for viz in vizioTV:
+        print(vizioTV[viz])
 }
