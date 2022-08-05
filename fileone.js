@@ -33,6 +33,7 @@ askGoogle = <input type="What Google product have you decided to purchase?"/>}
 if (askGoogle === googleProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Google Pixel model."}
 if (askGoogle === googleProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the second latest Google Pixel model."}
 if (askGoogle === googleProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the third latest Google Pixel model."}
+
 else{document.getElementById("demo").innerHTML = "You have decided to purchase a Google phone."}
 
 class Phone extends Computers:
@@ -42,60 +43,145 @@ function majorComps(){
     for apple in appleProducts:
     print(appleProducts[apple])
     askApple = <input type={"What Apple product have you decided to purchase"/>}
-    if(askApple === appleProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Macbook Air model that comes with the new M2 chip."}}
+    if (askApple === appleProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Macbook Air model that comes with the new M2 chip."}}
     if (askApple === appleProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the recent Macbook Air model that comes with the M1 chip."}
     if (askApple === appleProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the latest Macbook Pro 13 inch model with the latest M2 chip."}
-
+    if (askApple === appleProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase the recent Macbook Pro 13 inch model with the M1 chip."}
+    if (askApple === appleProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase the Macbook Pro 14 inch model."}
+    if (askApple === appleProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase the Macbook Pro 16 inch model."}
+    else (document.getElementById("demo").innerHTML = "You have decided to purchase an Apple computer.")
     acerProducts = ["Aspire 3", "Aspire 5","Nitro 5","Predator","Chromebook"]
     for acer in acerProducts:
     print(acerProducts[acer])
     askAcer = <input type={"What Acer product have you decided to purchase"/>}
+if (askAcer === acerProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the Acer Aspire 3 model."}
+if (askAcer === acerProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the Acer Aspire 5 model."}
+if (askAcer === acerProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the Acer Nitro 5 model."}
+if (askAcer === acerProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase the Acer Predator model."}
+if (askAcer === acerProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase the Acer Chromebook model."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase an Acer computer.")
     alienwareProducts = ["x15 R1","m15 R5", "m17 R5", "x17 R1", "x14 R1", "m15 R4", "m15 R7", "x15 R2"]
     for alien in alienwareProducts:
     print(alienwareProducts[alien])
     askAlien = <input type={{"What Alien product have you decided to purchase?"/>}
-    asusProducts = ["Vivobook","Zenbook","ROG","ROG Zephyrus","TUF Dash", "Vivobook Pro","Zenbook Pro","Chromebook"]
+if (askAlien === alienProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase the ALienware x15 R1 model."}
+if (askAlien === alienProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware m15 R5 model."}
+if (askAlien === alienProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware m17 R5 model."}
+if (askAlien === alienProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware x17 R1 model."}
+if (askAlien === alienProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware x14 R1 model."}
+if (askAlien === alienProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware m15 R4 model."}
+if (askAlien === alienProducts[6]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware m15 R7 model."}
+if (askAlien === alienProducts[7]){document.getElementById("demo").innerHTML = "You have decided to purchase the Alienware m15 R2 model."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase an Alienware computer.")
+    asusProducts = ["Vivobook","ROG","ROG Zephyrus","TUF Dash", "Vivobook Pro","Zenbook Pro","Chromebook"]
     for asus in asusProducts:
     print(asusProducts[asus])
-    askAsus = <input type={"What Asus product have you decided to purchase?"/>}
+    askAsus = <input type={"What Asus product have you decided to purchase?"/>}{
+if (askAsus === asusProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus Vivobook."}
+if (askAsus === asusProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus ROG."}
+if (askAsus === asusProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus ROG Zephyrus."}
+if (askAsus === asusProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus TUF Dash."}
+if (askAsus === asusProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus Vivobook Pro."}
+if (askAsus === asusProducts[6]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus Zenbook Pro."}
+if (askAsus === asusProducts[7]){document.getElementById("demo").innerHTML = "You have decided to purchase an Asus Chromebook."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase an Asus computer.")
     dellProducts = ["Inspiron","G15","XPS 13", "XPS 17","Latitude"]
     for dell in dellProducts:
     print(dellProducts[dell])
-    askDell = <input type={"What Dell product have you decided to purchase?"/>}
-    gigabyteProducts = ["A5","Aero","Aorus","Aorus Level","U4","G5"]
+    askDell = <input type={"What Dell product have you decided to purchase?"/>}{
+if (askDell == dellProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Dell Inspiron."}
+if (askDell == dellProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Dell G15."}
+if (askDell == dellProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Dell XPS 13."}
+if (askDell == dellProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Dell XPS 17."}
+if (askDell == dellProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Dell Latitude."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Dell computer.")
+        gigabyteProducts = ["A5","Aero","Aorus","Aorus Level","U4","G5"]
     for giga in gigabyteProducts:
     print(gigabyteProducts[giga])
-    askGiga = <input type={"What Gigabyte product have you decided to purchase?"/>}
-    HPproducts = ["Envy","Stream","Spectre","Omen","Pavilion","Elitebook","Victus"]
+    askGiga = <input type={"What Gigabyte product have you decided to purchase?"/>
+if (askGiga == gigabyteProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte A5."}
+if (askGiga == gigabyteProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte Aero."}
+if (askGiga == gigabyteProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte Aorus."}
+if (askGiga == gigabyteProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte Aorus Level."}
+if (askGiga == gigabyteProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte U4."}
+if (askGiga == gigabyteProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase an Gigabyte G5."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Gigabyte computer.")
+        HPproducts = ["Envy","Stream","Spectre","Omen","Pavilion","Elitebook","Victus"]
     for hp in HPproducts:
     print(HPproducts[hp])
-    askHP = <input type={"What HP product have you decided to purchase?"/>}
-    lenovoProducts = ["Yoga 7i","Ideapad","Yoga 6","Flex","Chromebook","Thinkpad","Legion"]
+    askHP = <input type={"What HP product have you decided to purchase?"/>
+if (askHP == HPProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Envy."}
+if (askHP == HPProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Stream."}
+if (askHP == HPProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Spectre."}
+if (askHP == HPProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Omen."}
+if (askHP == HPProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Pavilion."}
+if (askHP == HPProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Elitebook."}
+if (askHP == HPProducts[6]){document.getElementById("demo").innerHTML = "You have decided to purchase a HP Victus."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a HP computer.")
+        lenovoProducts = ["Yoga 7i","Ideapad","Yoga 6","Flex","Chromebook","Thinkpad","Legion"]
     for len in lenovoProducts:
     print(lenovoProducts[len])
-    askLen = <input type={"What Lenovo product have you decided to purchase?"/>}
-    lgProducts = ["Gram 17","Gram 15","Gram WUXUGA"]
+    askLen = <input type={"What Lenovo product have you decided to purchase?"/>}{
+if (askLen == lenovoProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Yoga 7i."}
+if (askLen == lenovoProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Ideapad."}
+if (askLen == lenovoProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Yoga 6."}
+if (askLen == lenovoProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Flex."}
+if (askLen == lenovoProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Chromebook."}
+if (askLen == lenovoProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Thinkpad."}
+if (askLen == lenovoProducts[6]){document.getElementById("demo").innerHTML = "You have decided to purchase an Lenovo Legion."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Lenovo computer.")
+        lgProducts = ["Gram 17","Gram 15","Gram WUXUGA"]
     for lg in lgProducts:
     print(lgProducts[lg])
-    askLG = <input type={"What LG product have you decided to purchase?"/>}
-    microsoftProducts = ["Surface","Surface Pro X","Surface 2-in-1"]
+    askLG = <input type={"What LG product have you decided to purchase?"/>}{
+if (askLG == lgProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an LG Gram 17."}
+if (askLG == lgProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase an LG Gram 15."}
+if (askLG == lgProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an LG Gram WUXUGA."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase an LG product.")
+        microsoftProducts = ["Surface","Surface Pro X","Surface 2-in-1"]
     for micro in microsoftProducts:
     print(microsoftProducts[micro])
-    askMicro = <input type={"What Micosoft product have you decided to purchase?"/>}
+    askMicro = <input type={"What Micosoft product have you decided to purchase?"/>}{
+if (askMicro == microsoftProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase a Microsoft Surface."}
+if (askMicro == microsoftProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase a Microsoft Surface Pro X."}
+if (askMicro == microsoftProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase a Microsoft Surface 2-in-1."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Microsoft product.")
     msiProducts = ["Modern 15","Prestige","Sword","Delta","Stealth","Vector","GP66","GF65"]
     for msi in msiProducts:
     print(msiProducts[msi])
-    askMSI = <input type={"What MSI product have you decided to purchase?"/>}
-    razerProducts = ["Blade 14","Blade 15","Book 13","Blade 17","Blade 15.6","Blade Stealth 13.3"]
+    askMSI = <input type={"What MSI product have you decided to purchase?"/>}{
+if (askMSI == msiProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Modern 15."}
+if (askMSI == msiProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Prestige."}
+if (askMSI == msiProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Sword."}
+if (askMSI == msiProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Delta."}
+if (askMSI == msiProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Stealth."}
+if (askMSI == msiProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI Vector."}
+if (askMSI == msiProducts[6]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI GP66."}
+if (askMSI == msiProducts[7]){document.getElementById("demo").innerHTML = "You have decided to purchase an MSI GF65."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase an MSI product.")
+        razerProducts = ["Blade 14","Blade 15","Book 13","Blade 17","Blade 15.6","Blade Stealth 13.3"]
     for razer in razerProducts:
     print(razerProducts[razer])
-    askRazer = <input type={"What Razer product have you decided to purchase"/>}
-    samProducts = ["Galaxy Book Go","Galaxy Book 2 Pro","Galaxy Book Flex 2","Galaxy Book Pro 360","Chromebook", "Galaxy Book Odyssey"]
+    askRazer = <input type={"What Razer product have you decided to purchase"/>}{
+if (askRazer == razerProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Blade 14."}
+if (askRazer == razerProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Blade 15."}
+if (askRazer == razerProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Book 13."}
+if (askRazer == razerProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Blade 17."}
+if (askRazer == razerProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Blade 15.6."}
+if (askRazer == razerProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase a Razer Blade Stealth 13.3."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Razer product.")
+        samProducts = ["Galaxy Book Go","Galaxy Book 2 Pro","Galaxy Book Flex 2","Galaxy Book Pro 360","Chromebook", "Galaxy Book Odyssey"]
     for sam in samProducts:
     print(samProducts[sam])
-    askSam = <input type{"What Samsung product have you decided to purchase?"/>}
-}
-
+    askSam = <input type{"What Samsung product have you decided to purchase?"/>}{
+if (askSam == samProducts[0]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Galaxy Go."}
+if (askSam == samProducts[1]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Galaxy Book 2 Pro."}
+if (askSam == samProducts[2]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Galaxy Book Flex 2."}
+if (askSam == samProducts[3]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Galaxy Pro 360."}
+if (askSam == samProducts[4]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Chromebook."}
+if (askSam == samProducts[5]){document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung Galaxy Book Odyssey."}
+else (document.getElementById("demo").innerHTML = "You have decided to purchase a Samsung product.")
+    }}
 
 class Phones class Tablets(){
 
